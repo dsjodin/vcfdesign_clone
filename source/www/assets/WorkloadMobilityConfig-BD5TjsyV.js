@@ -1,0 +1,2 @@
+import {j as jsx} from "./vendor-reactflow-cahzmn3Z.js";
+export default function Unavailable({onClose}={}){return jsx.jsxs("section",{style:{padding:"32px",color:"#dce9f5",background:"#142132"},children:[jsx.jsx("h2",{children:"Feature unavailable in this capture"}),jsx.jsx("p",{children:"This feature was not captured in the supplied HAR: WorkloadMobilityConfig-BD5TjsyV.js. Other captured features remain available."}),onClose?jsx.jsx("button",{onClick:onClose,children:"Close"}):jsx.jsx("a",{href:"/",children:"Back to dashboard"})]})}

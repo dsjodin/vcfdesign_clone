@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; frame-src 'none'; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'">
+    <meta name="description" content="VMware Cloud Foundation 9.x Design and Sizing Tool. Create professional HLD/LLD documents, architecture diagrams, and Bills of Material for VCF deployments." />
+    <title>VCFDesigner | Offline workspace</title>
+    <!-- Theme flash prevention - must run before body renders -->
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('vcfdesigner-theme');
+          var theme = stored ? JSON.parse(stored).state?.mode : 'dark';
+          var dark = theme === 'dark' ||
+            (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (dark) document.documentElement.classList.add('dark');
+        } catch (e) {
+          // Default to dark mode on error
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-BRyLftWV.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-cjs-helpers-CRNIONdy.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-BwMMO_rC.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-reactflow-cahzmn3Z.js">
+    <link rel="stylesheet" crossorigin href="/assets/vendor-reactflow-BZV40eAE.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-CcKtEF0x.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  <!-- Cloudflare Pages Analytics --><!-- Cloudflare Pages Analytics -->
+</body>
+</html>
